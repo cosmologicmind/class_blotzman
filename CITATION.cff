@@ -1,0 +1,60 @@
+# Citation File Format (CFF) for GTT Blotzman Code
+# https://citation-file-format.github.io/
+
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "GTT Blotzman Code: Scale-Dependent Geometric Field Theory"
+version: 1.0
+date-released: 2026-02-10
+url: "https://github.com/cosmologicmind/class_blotzman"
+repository-code: "https://github.com/cosmologicmind/class_blotzman"
+license: MIT
+authors:
+  - family-names: "Besemer"
+    given-names: "David A."
+    email: "cosmologicmind@github.com"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+    affiliation: "Independent Researcher"
+keywords:
+  - cosmology
+  - quantum gravity
+  - fractal geometry
+  - renormalization group
+  - hubble tension
+  - dark energy
+  - baryon asymmetry
+abstract: >
+  The GTT Blotzman Code implements the Scale-Dependent Geometric Field Theory
+  (SDGFT), a unified framework for quantum gravity and cosmology. The code
+  provides complete implementations of the GTT World Formula, including
+  scale-dependent gravitational constant, fractal spacetime dimension, and
+  emergent dark energy. It makes three falsifiable predictions testable by
+  experiments within the next decade: isocurvature modes (β_iso = 0.028),
+  neutrinoless double-beta decay (⟨m_ββ⟩ = 15 meV), and reduced structure
+  formation (S_8 = 0.76). All predictions are validated against current
+  observations (Planck 2018, SH0ES 2022, DESI 2024) with deviations < 1σ.
+references:
+  - type: article
+    authors:
+      - family-names: "Planck Collaboration"
+    title: "Planck 2018 results. VI. Cosmological parameters"
+    journal: "Astronomy & Astrophysics"
+    volume: 641
+    year: 2018
+    doi: "10.1051/0004-6361/201833910"
+  - type: article
+    authors:
+      - family-names: "Riess"
+        given-names: "Adam G."
+    title: "A Comprehensive Measurement of the Local Value of the Hubble Constant"
+    journal: "The Astrophysical Journal Letters"
+    volume: 934
+    year: 2022
+    doi: "10.3847/2041-8213/ac5c5b"
+  - type: article
+    authors:
+      - family-names: "DESI Collaboration"
+    title: "DESI 2024 VI: Cosmological Constraints from the Measurements of Baryon Acoustic Oscillations"
+    year: 2024
+    arxiv: "2404.03002"
