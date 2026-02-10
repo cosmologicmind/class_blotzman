@@ -58,7 +58,7 @@ Die Theorie ist **falsifizierbar** wenn:
 
 ```bash
 # Repository klonen
-git clone https://github.com/gt-theory/class_blotzman.git
+git clone https://github.com/cosmologicmind/class_blotzman.git
 cd class_blotzman
 
 # Mit Make bauen
@@ -252,7 +252,7 @@ Wenn Sie diesen Code verwenden, zitieren Sie bitte:
   author = {GTT Theory Group},
   title = {GTT Blotzman Code: Scale-Dependent Geometric Field Theory},
   year = {2025},
-  url = {https://github.com/gt-theory/class_blotzman},
+  url = {https://github.com/cosmologicmind/class_blotzman},
   version = {1.0}
 }
 ```
