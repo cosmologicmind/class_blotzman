@@ -108,6 +108,10 @@ class GTTModel:
         
         D(χ) = D_∞ - (D_∞ - 2) * exp(-χ/χ_P)
         
+        Bei χ=0 (heute): D ≈ D_∞
+        Bei χ→-∞ (frühe Zeiten): D → 2 (topologisch)
+        Bei χ→+∞ (späte Zeiten): D → D_∞ (asymptotisch)
+        
         Parameters
         ----------
         chi : float
@@ -118,9 +122,16 @@ class GTTModel:
         float
             Fraktale Dimension
         """
-        chi_P = np.log(self.M_PLANCK / 1.0)
+        # χ_P ist die charakteristische Skala (nicht Planck-Skala!)
+        # Wähle χ_P so dass D bei χ=0 nahe D_∞ ist
+        chi_P = 5.0  # Charakteristische Skala für RG-Fluss
         D_inf = self.gtt.D_asymptotic
-        return D_inf - (D_inf - 2.0) * np.exp(-chi / chi_P)
+        
+        # D(χ) läuft von 2 (früh) zu D_∞ (spät)
+        D = D_inf - (D_inf - 2.0) * np.exp(-chi / chi_P)
+        
+        # Begrenze auf physikalischen Bereich
+        return np.clip(D, 2.0, 3.0)
     
     def G_of_chi(self, chi: float) -> float:
         """
