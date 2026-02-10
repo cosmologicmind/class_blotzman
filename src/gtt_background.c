@@ -7,11 +7,16 @@
  * G_μν^(D) = 8πG(χ)T_μν + Λ(χ)g_μν + Q_μν
  */
 
+#define _USE_MATH_DEFINES
 #include "../include/gtt_geometry.h"
 #include "../include/fractal_rg.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
 
 #define _SUCCESS_ 0
 #define _FAILURE_ 1

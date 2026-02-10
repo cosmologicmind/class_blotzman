@@ -7,10 +7,18 @@
  * und skalenabhängigen Korrekturen aus der 6-Konus-Topologie.
  */
 
+#define _USE_MATH_DEFINES
 #include "../include/gtt_geometry.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
+#ifndef M_E
+#define M_E 2.71828182845904523536
+#endif
 
 /**
  * @struct primordial_spectra

@@ -3,10 +3,18 @@
  * @brief Implementation der RG-Fluss-Gleichungen
  */
 
+#define _USE_MATH_DEFINES
 #include "../include/fractal_rg.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
+#ifndef M_E
+#define M_E 2.71828182845904523536
+#endif
 
 /* Standard Model β-Funktionen (1-Loop) */
 static double beta_g3_SM(double g3) {
