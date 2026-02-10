@@ -33,9 +33,15 @@ ENV/
 *.png
 *.pdf
 *.txt
-!README.md
-!IMPLEMENTATION_SUMMARY.md
 !gtt_parameters.ini
+
+# Internal documentation (not for public repo)
+GITHUB_SETUP.md
+PUBLISH.md
+RELEASE_CHECKLIST.md
+PAPER_DRAFT.md
+STATUS.md
+IMPLEMENTATION_SUMMARY.md
 
 # CMake
 CMakeCache.txt
