@@ -1,0 +1,52 @@
+# Build artifacts
+build/
+lib/
+*.o
+*.so
+*.a
+*.dylib
+
+# Executables
+test_background
+test_perturbations
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Output files
+*.png
+*.pdf
+*.txt
+!README.md
+!IMPLEMENTATION_SUMMARY.md
+!gtt_parameters.ini
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.cmake
+install_manifest.txt
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
