@@ -1,8 +1,14 @@
 # GTT Blotzman Code
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Tests](https://img.shields.io/badge/tests-15%2F15%20passing-brightgreen.svg)](test_suite.py)
+[![Version](https://img.shields.io/badge/version-1.0-blue.svg)](https://github.com/cosmologicmind/class_blotzman/releases)
+[![DOI](https://img.shields.io/badge/DOI-pending-orange.svg)]()
+
 **Scale-Dependent Geometric Field Theory (SDGFT) - Kosmologische Implementierung**
 
-Version 1.0 | GTT Theory Group
+Version 1.0 | David A. Besemer
 
 ---
 
@@ -263,19 +269,19 @@ MIT License - siehe LICENSE-Datei
 
 ## Kontakt
 
-- **Projekt**: https://github.com/gt-theory/class_blotzman
-- **Issues**: https://github.com/gt-theory/class_blotzman/issues
-- **Dokumentation**: https://gtt-theory.readthedocs.io
+- **Projekt**: https://github.com/cosmologicmind/class_blotzman
+- **Issues**: https://github.com/cosmologicmind/class_blotzman/issues
+- **Discussions**: https://github.com/cosmologicmind/class_blotzman/discussions
 
 ## Roadmap
 
-### Version 1.1 (Q2 2025)
+### Version 1.1 (Q2 2026)
 - [ ] Vollständige CLASS-Integration
 - [ ] Python-Bindings mit pybind11
 - [ ] GPU-Beschleunigung für RG-Fluss
 - [ ] Erweiterte CMB-Spektren (Lensing)
 
-### Version 2.0 (Q4 2025)
+### Version 2.0 (Q4 2026)
 - [ ] N-Body-Simulationen mit fraktaler Gravitation
 - [ ] Neutrino-Hierarchie-Berechnungen
 - [ ] Baryogenese-Modul

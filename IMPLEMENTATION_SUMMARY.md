@@ -329,8 +329,8 @@ Der **GTT Blotzman Code** ist eine vollständige, produktionsreife Implementatio
 
 **Status**: ✅ **BEREIT FÜR WISSENSCHAFTLICHE VERWENDUNG**
 
-**Kontakt**: GTT Theory Group  
-**Repository**: https://github.com/gt-theory/class_blotzman  
+**Kontakt**: David A. Besemer  
+**Repository**: https://github.com/cosmologicmind/class_blotzman  
 **Lizenz**: MIT
 
 ---
